@@ -1,0 +1,88 @@
+# Ignora archivos binarios y de compilación
+[Bb]in/
+[Oo]bj/
+
+# Ignora archivos de usuario y de configuración local
+*.user
+*.suo
+*.userprefs
+*.lock.json
+
+# Ignora archivos de salida de NuGet
+packages/
+
+# Ignora archivos de configuración de Rider
+.idea/
+
+# Ignora archivos de configuración de VS Code
+.vscode/
+
+# Ignora archivos de configuración de Visual Studio
+.vs/
+*.csproj.user
+*.vbproj.user
+
+# Ignora archivos de logs y resultados de pruebas
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignora archivos de ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Ignora archivos de Docker
+docker-compose.*
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+
+# Ignora archivos de Azure Functions
+func*/
+
+# Ignora archivos de Node.js (si estás usando frontend con Node.js)
+node_modules/
+npm-debug.log
+
+# Ignora archivos de TypeScript (si estás usando TypeScript)
+*.tsbuildinfo
+
+# Ignora archivos de SQL Server
+*.mdf
+*.ldf
+
+# Ignora archivos de caché de .NET
+/.dotnet/
+/.local/
+
+# Ignora archivos de configuración de Rider
+.idea/
+
+# Ignora archivos de configuración de Visual Studio Code
+.vscode/
+
+# Ignora archivos de configuración de Visual Studio
+.vs/
+
+# Ignora archivos de configuración de Azure Functions
+func*/
+
+# Ignora archivos de configuración de Docker
+docker-compose.*
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+
+# Ignora archivos de configuración de Node.js (si estás usando frontend con Node.js)
+node_modules/
+npm-debug.log
+
+# Ignora archivos de configuración de TypeScript (si estás usando TypeScript)
+*.tsbuildinfo
+
+# Ignora archivos de configuración de SQL Server
+*.mdf
+*.ldf
+
+# Ignora archivos de caché de .NET
+/.dotnet/
+/.local/
